@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  body{
+    text-decoration: none!important;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+  form{
+    padding-top: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  form label{
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  form input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #000;
+    margin-bottom: 5px;
+  }
+  form button{
+    border-radius: 3px;
+    background: lightslategrey;
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover{
+    background: green;
+    color: honeydew;
+  }
+  ul{
+    margin-top: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  li{
+    padding: 10px;
+    border-radius: 3px;
+    background: #7159c1;
+    box-shadow: 0 0 10px #000;
+    width: 100%;
+    max-width: 200px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  li p {
+    max-width: 190px;
+  }
+  li a {
+    text-decoration: none;
+    background: #262626;
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  li img{
+    border: 1px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+</style>
+
+<body>
+  
+  <form action="" id="repo-form">
+    <label for="repo">Add repository</label>
+    <input type="text" name="repository" placeholder="name/repo">
+    <button type="submit">Add</button>    
+  </form>
+
+  <ul id="repo-list"></ul>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
