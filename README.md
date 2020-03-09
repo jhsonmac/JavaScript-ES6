@@ -36,17 +36,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O curso de JavaScript ES6 foi feito em 4 módulos sendo eles:
 
-Conceitos
-- introdução sobre a linguagem, instalação e configuração de ferramentas, variaveis, operações em array, arrow function, desestruturação, operadores rest/spread, template literals e sort syntax
+- Conceitos
+ introdução sobre a linguagem, instalação e configuração de ferramentas, variaveis, operações em array, arrow function, desestruturação, operadores rest/spread, template literals e sort syntax
 
-WebPack
-- Configuração do webpack, import/export e webpack dev server
+- WebPack
+ Configuração do webpack, import/export e webpack dev server
 
-Async/Await
-- Requisições usando async/await e a lib axios
+- Async/Await
+ Requisições usando async/await e a lib axios
 
-Aplicação ES6
-- Aplicação feita usando todos conceitos ensinados durante as etapas anteriores para buscar repositorios dos github e exibilos em tela.
+- Aplicação ES6
+ Aplicação feita usando todos conceitos ensinados durante as etapas anteriores para buscar repositorios dos github e exibilos em tela.
 
 Desenvolvido em Fev/2020 <a href="https://rocketseat.com.br/">Rocketseat</a>!
  
@@ -57,8 +57,8 @@ Execute o comando yarn nas pastas do projeto para baixar todas as depêndencias 
 
 <h4> Inicie o projeto em modo desenvolvimento com o seguinte comando: </h4>
 
-yarn dev
 ````
+yarn dev
 ````
 
 <h5>
